@@ -21,4 +21,11 @@ function distanceFromHqInFeet(block) {
  function calculatesFarePrice(start, destination) {
    const distance = distanceTravelledInFeet(start, destination)
 
+   if (distance < 2500) {
+     return 'value';
+   } else {
+     return 'cannot travel that far';
+   }
+
+
  }

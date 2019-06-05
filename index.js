@@ -18,10 +18,7 @@ function distanceFromHqInFeet(block) {
    }
  }
 
- function calculatesFarePrice (block1, block2) {
-   if function distanceTravelledInFeet(block1, block2) < 2500 {
-     return 'value'
-   } else {
-     return 'cannot travel that far';
-   }
+ function calculatesFarePrice(start, destination) {
+   const distance = distanceTravelledInFeet(start, destination)
+   
  }

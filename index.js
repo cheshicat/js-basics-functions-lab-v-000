@@ -23,6 +23,10 @@ function distanceFromHqInFeet(block) {
 
    if (distance >= 2500) {
      return 'cannot travel that far';
+   } else {
+     if (distance <= 400) {
+       return 0
+     }
    }
 
 

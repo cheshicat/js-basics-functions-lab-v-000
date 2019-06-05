@@ -19,7 +19,7 @@ function distanceFromHqInFeet(block) {
  }
 
  function calculatesFarePrice (block1, block2) {
-   if distanceTravelledInFeet(block1, block2) < 2500 {
+   if function distanceTravelledInFeet(block1, block2) < 2500 {
      return 'value'
    } else {
      return 'cannot travel that far';
